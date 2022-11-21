@@ -67,7 +67,7 @@
         "type": "color"
       },
       "disabled": {
-        "value": "{color.neutral.400}",
+        "value": "{color.neutral.300}",
         "type": "color"
       },
       "surface": {
@@ -90,7 +90,7 @@
           "type": "color"
         },
         "error": {
-          "value": "{color.functional.red.200}",
+          "value": "{color.functional.red.100}",
           "type": "color"
         },
         "success": {
@@ -103,15 +103,15 @@
         }
       },
       "text": {
-        "strong": {
+        "primary": {
           "value": "{color.black}",
           "type": "color"
         },
-        "normal": {
+        "secondary": {
           "value": "{color.neutral.800}",
           "type": "color"
         },
-        "weak": {
+        "tertiary": {
           "value": "{color.neutral.400}",
           "type": "color"
         },
@@ -124,15 +124,15 @@
           "type": "color"
         },
         "error": {
-          "value": "{color.functional.red.500}",
+          "value": "{color.functional.red.300}",
           "type": "color"
         },
         "success": {
-          "value": "{color.functional.green.500}",
+          "value": "{color.functional.green.300}",
           "type": "color"
         },
         "warning": {
-          "value": "{color.functional.orange.500}",
+          "value": "{color.functional.orange.300}",
           "type": "color"
         },
         "onPrimary": {
@@ -149,6 +149,14 @@
       "icon": {
         "bg": {
           "value": "{color.neutral.100}",
+          "type": "color"
+        },
+        "primary": {
+          "value": "{color.neutral.800}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "$color.brand.primary.500",
           "type": "color"
         }
       }
