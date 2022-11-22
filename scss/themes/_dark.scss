@@ -1,0 +1,32 @@
+$sys-color-primary: $color-brand-primary-300;
+$sys-color-pressed: $color-brand-primary-400;
+$sys-color-disabled: $color-neutral-400; 
+
+/* surface 用於特殊區塊背景 */
+$sys-color-surface-primary: $color-neutral-800;
+$sys-color-surface-secondary: $color-neutral-700;
+$sys-color-surface-tertiary: $color-neutral-600;
+
+// background
+$sys-color-bg-default: $color-neutral-900;
+$sys-color-bg-error: $color-functional-red-100;
+$sys-color-bg-success: $color-functional-green-100;
+$sys-color-bg-warning: $color-functional-orange-100;
+
+// text
+$sys-color-text-primary: $color-white;
+$sys-color-text-secondary: $color-neutral-200;
+$sys-color-text-tertiary: $color-neutral-500;
+$sys-color-text-link: $color-brand-primary-300;
+$sys-color-text-accent: $color-secondary-300;
+$sys-color-text-error: $color-functional-red-100;
+$sys-color-text-success: $color-functional-green-100;
+$sys-color-text-warning: $color-functional-orange-100;
+$sys-color-text-onPrimary: $color-white; 
+
+/* border */
+$sys-color-border-default: $color-neutral-600;
+
+/* icon */
+$sys-color-icon-primary: $color-neutral-100;
+$sys-color-icon-secondary: $color-brand-primary-300;
