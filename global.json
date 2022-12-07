@@ -64,11 +64,11 @@
         "type": "color"
       },
       "200": {
-        "value": "#D7DCE1",
+        "value": "#dce0e5",
         "type": "color"
       },
       "300": {
-        "value": "#C3C8CF",
+        "value": "#c7cdd4",
         "type": "color"
       },
       "400": {
@@ -76,7 +76,7 @@
         "type": "color"
       },
       "500": {
-        "value": "#7D8793",
+        "value": "#727d8c",
         "type": "color"
       },
       "600": {
@@ -106,86 +106,46 @@
     },
     "brand": {
       "primary": {
-        "50": {
-          "value": "#f1fdff",
-          "type": "color"
-        },
         "100": {
           "value": "#E2FBFE",
           "type": "color"
         },
         "200": {
-          "value": "#94DDE6",
-          "type": "color"
-        },
-        "300": {
           "value": "#64CEDB",
           "type": "color"
         },
-        "400": {
-          "value": "#45C5D4",
-          "type": "color"
-        },
-        "500": {
+        "300": {
           "value": "#17B6C9",
           "type": "color"
         },
-        "600": {
+        "400": {
           "value": "#15A6B7",
           "type": "color"
         },
-        "700": {
+        "500": {
           "value": "#10818F",
-          "type": "color"
-        },
-        "800": {
-          "value": "#0D646F",
-          "type": "color"
-        },
-        "900": {
-          "value": "#0A4C54",
           "type": "color"
         }
       },
       "secondary": {
-        "50": {
-          "value": "#F9F2EA",
-          "type": "color"
-        },
         "100": {
           "value": "#EAD5BE",
           "type": "color"
         },
         "200": {
-          "value": "#E2C3A0",
-          "type": "color"
-        },
-        "300": {
           "value": "#D4A775",
           "type": "color"
         },
+        "300": {
+          "value": "#cd9453",
+          "type": "color"
+        },
         "400": {
-          "value": "#CC965A",
+          "value": "#b37834",
           "type": "color"
         },
         "500": {
-          "value": "#b0742f",
-          "type": "color"
-        },
-        "600": {
-          "value": "#A96C28",
-          "type": "color"
-        },
-        "700": {
-          "value": "#885823",
-          "type": "color"
-        },
-        "800": {
-          "value": "#69441B",
-          "type": "color"
-        },
-        "900": {
-          "value": "#503415",
+          "value": "#a86218",
           "type": "color"
         }
       }
@@ -193,55 +153,31 @@
     "functional": {
       "red": {
         "100": {
-          "value": "#efc0c0",
-          "type": "color"
-        },
-        "200": {
           "value": "#DF636A",
           "type": "color"
         },
-        "300": {
+        "200": {
           "value": "#D02429",
-          "type": "color"
-        },
-        "400": {
-          "value": "#8D1B1F",
           "type": "color"
         }
       },
       "green": {
         "100": {
-          "value": "#99D1BB",
-          "type": "color"
-        },
-        "200": {
           "value": "#4EBB91",
           "type": "color"
         },
-        "300": {
+        "200": {
           "value": "#05985a",
-          "type": "color"
-        },
-        "400": {
-          "value": "#03643F",
           "type": "color"
         }
       },
       "orange": {
         "100": {
-          "value": "#FAC4AE",
-          "type": "color"
-        },
-        "200": {
           "value": "#F79E7A",
           "type": "color"
         },
-        "300": {
+        "200": {
           "value": "#F3713D",
-          "type": "color"
-        },
-        "400": {
-          "value": "#AC471F",
           "type": "color"
         }
       }
@@ -263,17 +199,13 @@
           "type": "color"
         },
         "200": {
-          "value": "#D8F660",
+          "value": "#c8e650",
           "type": "color"
         }
       }
     }
   },
   "lineHeights": {
-    "amount": {
-      "value": "120%",
-      "type": "lineHeights"
-    },
     "normal": {
       "value": "140%",
       "type": "lineHeights"
@@ -353,8 +285,8 @@
       "type": "fontSizes"
     }
   },
-  "font": {
-    "amount": {
+  "fonts": {
+    "en": {
       "h1": {
         "bold": {
           "type": "typography",
@@ -485,6 +417,38 @@
           },
           "type": "typography"
         }
+      },
+      "body3": {
+        "bold": {
+          "value": {
+            "fontFamily": "{fontFamilies.montserrat}",
+            "fontWeight": "{fontWeights.montserrat-bold}",
+            "lineHeight": "{lineHeights.normal}",
+            "fontSize": "{fontSizes.xs}",
+            "letterSpacing": "{letterSpacing.normal}"
+          },
+          "type": "typography"
+        },
+        "medium": {
+          "value": {
+            "fontFamily": "{fontFamilies.montserrat}",
+            "fontWeight": "{fontWeights.montserrat-medium}",
+            "lineHeight": "{lineHeights.normal}",
+            "fontSize": "{fontSizes.xs}",
+            "letterSpacing": "{letterSpacing.normal}"
+          },
+          "type": "typography"
+        },
+        "regular": {
+          "value": {
+            "fontFamily": "{fontFamilies.montserrat}",
+            "fontWeight": "{fontWeights.montserrat-regular}",
+            "lineHeight": "{lineHeights.normal}",
+            "fontSize": "{fontSizes.xs}",
+            "letterSpacing": "{letterSpacing.normal}"
+          },
+          "type": "typography"
+        }
       }
     },
     "h1": {
@@ -553,7 +517,7 @@
         "type": "typography"
       }
     },
-    "h4": {
+    "sub1": {
       "bold": {
         "value": {
           "fontFamily": "{fontFamilies.noto-sans-tc}",
@@ -575,7 +539,7 @@
         "type": "typography"
       }
     },
-    "sub": {
+    "sub2": {
       "bold": {
         "value": {
           "fontFamily": "{fontFamilies.noto-sans-tc}",
@@ -671,7 +635,7 @@
         "type": "typography"
       }
     },
-    "caption1": {
+    "body3": {
       "bold": {
         "value": {
           "fontFamily": "{fontFamilies.noto-sans-tc}",
@@ -709,11 +673,11 @@
     "type": "spacing"
   },
   "borderWidth": {
-    "thin": {
+    "01": {
       "value": "1",
       "type": "borderWidth"
     },
-    "base": {
+    "02": {
       "value": "2",
       "type": "borderWidth"
     }
