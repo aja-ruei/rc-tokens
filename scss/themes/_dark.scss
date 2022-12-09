@@ -1,35 +1,52 @@
-$sys-color-primary: $color-brand-primary-300;
-$sys-color-pressed: $color-brand-primary-400;
-$sys-color-disabled: $color-neutral-400; 
-
-/* surface 用於特殊區塊背景 */
+// surface
 $sys-color-surface-primary: $color-neutral-800;
 $sys-color-surface-secondary: $color-neutral-700;
-$sys-color-surface-tertiary: $color-neutral-600;
+$sys-color-surface-inverse: $color-neutral-900;
 
 // background
+$sys-color-bg-primary: $color-brand-primary-300;
 $sys-color-bg-default: $color-neutral-900;
-$sys-color-bg-error: $color-functional-red-100;
-$sys-color-bg-success: $color-functional-green-100;
-$sys-color-bg-warning: $color-functional-orange-100;
+
+$sys-color-bg-nav: $sys-color-surface-inverse; // $color-neutral-900
+$sys-color-bg-overlay: rgba($color-black, 0.6);
+
+$sys-color-bg-pressed: $color-brand-primary-400;
+$sys-color-bg-disabled: $color-neutral-500;
+
+// container
+$sys-color-container-primary: $color-neutral-800;
+$sys-color-container-secondary: $color-neutral-700;
+$sys-color-container-tertiary: $color-neutral-600;
+
+// icon
+$sys-color-icon-primary: $color-neutral-200;
+$sys-color-icon-secondary: $color-brand-primary-300;
+
+$sys-color-icon-decorative-primary: $color-decorative-neon-blue-200;
+$sys-color-icon-decorative-secondary: $color-decorative-neon-green-200;
+
+// border
+$sys-color-border-default: $color-neutral-600;
+$sys-color-border-highlight: $color-decorative-neon-blue-200;
 
 // text
 $sys-color-text-primary: $color-white;
-$sys-color-text-secondary: $color-neutral-200;
+$sys-color-text-secondary: $color-neutral-100;
 $sys-color-text-tertiary: $color-neutral-400;
-$sys-color-text-link: $color-brand-primary-300;
+
 $sys-color-text-accent: $color-brand-secondary-300;
-$sys-color-text-error: $color-functional-red-100;
+
 $sys-color-text-success: $color-functional-green-100;
 $sys-color-text-warning: $color-functional-orange-100;
-$sys-color-text-onPrimary: $color-white; 
+$sys-color-text-error: $color-functional-red-100;
 
-/* border */
-$sys-color-border-default: $color-neutral-600;
+$sys-color-text-link: $color-brand-primary-300;
+$sys-color-text-on-primary: $color-white;
 
-/* icon */
-$sys-color-icon-primary: $color-neutral-100;
-$sys-color-icon-secondary: $color-brand-primary-300;
-
-/* box-shadow */
-$sys-color-box-shadow: rgba($color-black, 0.2);
+// box-shadow
+$box-shadow-base: 0 2px 12px rgba($color-black, 0.1);
+$box-shadow-card: 0 4px 24px rgba($color-black, 0.3);
+$box-shadow-popup: 2px 2px 36px rgba($color-black, 0.3);
+$box-shadow-bottom-sheet: 2px -2px 12px rgba($color-black, 0.5);
+$box-shadow-nav: 0 1px 4px rgba($color-black, 0.3);
+$box-shadow-drag: 0 0 16px rgba($color-black, 0.3);
