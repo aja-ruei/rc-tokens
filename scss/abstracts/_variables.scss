@@ -91,10 +91,10 @@ $border-width-02: 2px;
 $border-width-03: 3px;
 
 // border-radius
-$border-radius-base: 4px;
-$border-radius-md: $border-radius-base * 2;
-$border-radius-lg: $border-radius-base * 4;
-$border-radius-xl: $border-radius-base * 6;
+$border-radius-base: 0.25rem; // 4px
+$border-radius-md: $border-radius-base * 2; 
+$border-radius-lg: $border-radius-base * 4; 
+$border-radius-xl: $border-radius-base * 6; 
 $border-radius-pill: $border-radius-base * 20;
 
 // spacing
