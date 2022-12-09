@@ -1,0 +1,59 @@
+// heading
+%font-title {
+	line-height: $line-heights-normal;
+  letter-spacing: $letter-spacing-wide;
+}
+
+.fonts-h1 {
+	@extend %font-title;
+	font-size: $font-sizes-3xl; 
+}
+
+.fonts-h2 {
+	@extend %font-title;
+	font-size: $font-sizes-2xl;
+}
+
+.fonts-h3 {
+	@extend %font-title;
+	font-size: $font-sizes-xl;
+}
+
+// subtitle
+.fonts-sub1 {
+	@extend %font-title;
+	font-size: $font-sizes-lg;
+
+}
+.fonts-sub2 {
+	@extend %font-title;
+	font-size: $font-sizes-md;
+}
+
+// body
+%font-body {
+	line-height: $line-heights-normal;
+  letter-spacing: $letter-spacing-norma;
+}
+
+.fonts-body1 {
+	@extend %fonts-body;
+	font-size: $font-sizes-base;
+}
+
+.fonts-body2 {
+	@extend %fonts-body;
+	font-size: $font-sizes-sm;
+}
+
+.fonts-body3 {
+	@extend %fonts-body;
+	font-size: $font-sizes-xs;
+}
+
+
+
+
+
+
+
