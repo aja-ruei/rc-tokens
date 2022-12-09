@@ -148,8 +148,12 @@
         }
       },
       "border": {
-        "primary": {
+        "default": {
           "value": "$color.neutral.600",
+          "type": "color"
+        },
+        "highlight": {
+          "value": "{color.decorative.neonBlue.200}",
           "type": "color"
         }
       },

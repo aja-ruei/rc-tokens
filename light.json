@@ -148,8 +148,12 @@
         }
       },
       "border": {
-        "primary": {
+        "default": {
           "value": "{color.neutral.200}",
+          "type": "color"
+        },
+        "highlight": {
+          "value": "{color.brand.primary.300}",
           "type": "color"
         }
       },
