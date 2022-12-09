@@ -1,0 +1,124 @@
+/* -- COLOR start -- */
+
+// base
+$color-neutral-50: #f3f5f6;
+$color-neutral-100: #edf0f2;
+$color-neutral-200: #dce0e5;
+$color-neutral-300: #c7cdd4;
+$color-neutral-400: #a6adb5;
+$color-neutral-500: #727d8c;
+$color-neutral-600: #48556c;
+$color-neutral-700: #364053;
+$color-neutral-800: #2a3342;
+$color-neutral-900: #1b2028;
+
+$color-white: #fdfdfd;
+$color-black: #09090a;
+
+// brand
+$color-brand-primary-100: #e2fbfe;
+$color-brand-primary-200: #64cedb;
+$color-brand-primary-300: #17b6c9;
+$color-brand-primary-400: #15a6b7;
+$color-brand-primary-500: #10818f;
+
+$color-brand-secondary-100: #ead5be;
+$color-brand-secondary-200: #d4a775;
+$color-brand-secondary-300: #cd9453;
+$color-brand-secondary-400: #b37834;
+$color-brand-secondary-500: #a86218;
+
+// functional
+$color-functional-red-100: #df636a;
+$color-functional-red-200: #d02429;
+
+$color-functional-green-100: #4ebb91;
+$color-functional-green-200: #05985a;
+
+$color-functional-orange-100: #f79e7a;
+$color-functional-orange-200: #f3713d;
+
+// decorative
+$color-decorative-neon-blue-100: #2de9f6;
+$color-decorative-neon-blue-200: #2be0ec;
+$color-decorative-neon-green-100: #dafa5f;
+$color-decorative-neon-green-200: #c8e650;
+
+/* -- COLOR end -- */
+
+
+/* -- TYPOGRAPHY start -- */
+
+// font-family
+// 中文
+$font-families-noto-sans-tc: "Noto Sans TC";
+
+// 英數字
+$font-families-montserrat: Montserrat;
+
+// font-weight
+$font-weights-regular: 400;
+$font-weights-medium: 500;
+$font-weights-bold: 700;
+
+// font-size
+$font-sizes-2xs: $font-sizes-base * 0.625;
+$font-sizes-xs: $font-sizes-base *  0.75;
+$font-sizes-sm: $font-sizes-base *  0.875;
+$font-sizes-base: 1rem; // 16px
+$font-sizes-md: $font-sizes-base * 1.125;
+$font-sizes-lg: $font-sizes-base * 1.25;
+$font-sizes-xl: $font-sizes-base * 1.5;
+$font-sizes-2xl: $font-sizes-base * 1.75;
+$font-sizes-3xl: $font-sizes-base * 2;
+
+// letter-spacing 
+$letter-spacing-wide: 1px;
+$letter-spacing-normal: normal;
+
+// line-height
+$line-heights-normal: 140%;
+
+/* -- TYPOGRAPHY end -- */
+
+
+/* -- BOX STYLING start -- */
+
+// border
+// border-width, style, color
+$border-width-01: 1px;
+$border-width-02: 2px;
+$border-width-03: 3px;
+
+// border-radius
+$border-radius-base: 4px;
+$border-radius-md: $border-radius-base * 2;
+$border-radius-lg: $border-radius-base * 4;
+$border-radius-xl: $border-radius-base * 6;
+$border-radius-pill: $border-radius-base * 20;
+
+// spacing
+$spacing-01: $spacing-05 * .125;
+$spacing-02: $spacing-05 * .25;
+$spacing-03: $spacing-05 * .5;
+$spacing-04: $spacing-05 * .75;
+$spacing-05: 1rem;
+$spacing-06: $spacing-05 * 1.5;
+$spacing-07: $spacing-05 * 2;
+$spacing-08: $spacing-05 * 3;
+$spacing-09: $spacing-05 * 4;
+
+// opacity 
+$opacity-0: 0;
+$opacity-10: .1;
+$opacity-20: .2;
+$opacity-30: .3;
+$opacity-40: .4;
+$opacity-50: .5;
+$opacity-60: .6;
+$opacity-70: .7;
+$opacity-80: .8;
+$opacity-90: .9;
+$opacity-100: 1;
+
+/* -- BOX STYLING end -- */
