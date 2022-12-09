@@ -62,10 +62,10 @@ $font-weights-medium: 500;
 $font-weights-bold: 700;
 
 // font-size
+$font-sizes-base: 1rem; // 16px
 $font-sizes-2xs: $font-sizes-base * 0.625;
 $font-sizes-xs: $font-sizes-base *  0.75;
 $font-sizes-sm: $font-sizes-base *  0.875;
-$font-sizes-base: 1rem; // 16px
 $font-sizes-md: $font-sizes-base * 1.125;
 $font-sizes-lg: $font-sizes-base * 1.25;
 $font-sizes-xl: $font-sizes-base * 1.5;
@@ -98,11 +98,11 @@ $border-radius-xl: $border-radius-base * 6;
 $border-radius-pill: $border-radius-base * 20;
 
 // spacing
+$spacing-05: 1rem;
 $spacing-01: $spacing-05 * .125;
 $spacing-02: $spacing-05 * .25;
 $spacing-03: $spacing-05 * .5;
 $spacing-04: $spacing-05 * .75;
-$spacing-05: 1rem;
 $spacing-06: $spacing-05 * 1.5;
 $spacing-07: $spacing-05 * 2;
 $spacing-08: $spacing-05 * 3;

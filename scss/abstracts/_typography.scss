@@ -1,7 +1,7 @@
 // heading
 %font-title {
 	line-height: $line-heights-normal;
-  letter-spacing: $letter-spacing-wide;
+	letter-spacing: $letter-spacing-wide;
 }
 
 .fonts-h1 {
@@ -37,17 +37,17 @@
 }
 
 .fonts-body1 {
-	@extend %fonts-body;
+	@extend %font-body;
 	font-size: $font-sizes-base;
 }
 
 .fonts-body2 {
-	@extend %fonts-body;
+	@extend %font-body;
 	font-size: $font-sizes-sm;
 }
 
 .fonts-body3 {
-	@extend %fonts-body;
+	@extend %font-body;
 	font-size: $font-sizes-xs;
 }
 
