@@ -279,10 +279,6 @@
     "xs": {
       "value": "$fontSizes.base * 0.75",
       "type": "fontSizes"
-    },
-    "2xs": {
-      "value": "$fontSizes.base *0.625",
-      "type": "fontSizes"
     }
   },
   "fonts": {
@@ -446,6 +442,50 @@
             "lineHeight": "{lineHeights.normal}",
             "fontSize": "{fontSizes.xs}",
             "letterSpacing": "{letterSpacing.normal}"
+          },
+          "type": "typography"
+        }
+      },
+      "sub1": {
+        "bold": {
+          "value": {
+            "fontFamily": "{fontFamilies.montserrat}",
+            "fontWeight": "{fontWeights.montserrat-bold}",
+            "lineHeight": "{lineHeights.normal}",
+            "fontSize": "{fontSizes.lg}",
+            "letterSpacing": "{letterSpacing.wide}"
+          },
+          "type": "typography"
+        },
+        "medium": {
+          "value": {
+            "fontFamily": "{fontFamilies.montserrat}",
+            "fontWeight": "{fontWeights.montserrat-medium}",
+            "lineHeight": "{lineHeights.normal}",
+            "fontSize": "{fontSizes.lg}",
+            "letterSpacing": "{letterSpacing.wide}"
+          },
+          "type": "typography"
+        }
+      },
+      "sub2": {
+        "bold": {
+          "value": {
+            "fontFamily": "{fontFamilies.montserrat}",
+            "fontWeight": "{fontWeights.montserrat-bold}",
+            "lineHeight": "{lineHeights.normal}",
+            "fontSize": "{fontSizes.md}",
+            "letterSpacing": "{letterSpacing.wide}"
+          },
+          "type": "typography"
+        },
+        "medium": {
+          "value": {
+            "fontFamily": "{fontFamilies.montserrat}",
+            "fontWeight": "{fontWeights.montserrat-medium}",
+            "lineHeight": "{lineHeights.normal}",
+            "fontSize": "{fontSizes.md}",
+            "letterSpacing": "{letterSpacing.wide}"
           },
           "type": "typography"
         }
@@ -679,6 +719,10 @@
     },
     "02": {
       "value": "2",
+      "type": "borderWidth"
+    },
+    "03": {
+      "value": "3",
       "type": "borderWidth"
     }
   },

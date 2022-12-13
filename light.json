@@ -1,45 +1,34 @@
 {
   "boxShadow": {
-    "sm": {
+    "base": {
       "value": {
         "x": "0",
         "y": "2",
         "blur": "8",
         "spread": "0",
-        "color": "rgba($color.neutral.700, 0.1)",
+        "color": "rgba($color.neutral.700, 0.08)",
         "type": "dropShadow"
       },
       "type": "boxShadow"
     },
-    "md": {
+    "card": {
       "value": {
         "x": "0",
         "y": "4",
-        "blur": "16",
+        "blur": "24",
         "spread": "0",
         "color": "rgba($color.neutral.700, 0.08)",
         "type": "dropShadow"
       },
       "type": "boxShadow"
     },
-    "lg": {
-      "value": {
-        "x": "0",
-        "y": "8",
-        "blur": "40",
-        "spread": "0",
-        "color": "rgba($color.neutral.700, 0.08)",
-        "type": "dropShadow"
-      },
-      "type": "boxShadow"
-    },
-    "popover": {
+    "popup": {
       "value": {
         "x": "2",
         "y": "2",
         "blur": "36",
         "spread": "0",
-        "color": "rgba($color.neutral.700, 0.4)",
+        "color": "rgba($color.neutral.700, 0.2)",
         "type": "dropShadow"
       },
       "type": "boxShadow"
@@ -48,9 +37,20 @@
       "value": {
         "x": "0",
         "y": "-2",
-        "blur": "16",
+        "blur": "12",
         "spread": "0",
         "color": "rgba($color.neutral.700, 0.2)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "nav": {
+      "value": {
+        "x": "0",
+        "y": "1",
+        "blur": "4",
+        "spread": "0",
+        "color": "rgba($color.neutral.700, 0.08)",
         "type": "dropShadow"
       },
       "type": "boxShadow"
@@ -59,9 +59,9 @@
       "value": {
         "x": "0",
         "y": "0",
-        "blur": "8",
+        "blur": "16",
         "spread": "0",
-        "color": "rgba($color.neutral.700, 0.16)",
+        "color": "rgba($color.neutral.700, 0.2)",
         "type": "dropShadow"
       },
       "type": "boxShadow"
@@ -90,8 +90,12 @@
           "value": "rgba($color.black, 0.5)",
           "type": "color"
         },
-        "navigation": {
-          "value": "$color.white",
+        "nav": {
+          "value": "$sys.color.surface.inverse",
+          "type": "color"
+        },
+        "decorative-secondary": {
+          "value": "{color.decorative.neonGreen.100}",
           "type": "color"
         }
       },
@@ -145,6 +149,10 @@
         "onPrimary": {
           "value": "{color.white}",
           "type": "color"
+        },
+        "highlight": {
+          "value": "{color.decorative.neonBlue.100}",
+          "type": "color"
         }
       },
       "border": {
@@ -173,6 +181,16 @@
         "decorative-primary": {
           "value": "{color.decorative.neonBlue.100}",
           "type": "color"
+        },
+        "tab": {
+          "default": {
+            "value": "{color.neutral.300}",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{color.brand.primary.300}",
+            "type": "color"
+          }
         }
       },
       "container": {
@@ -186,6 +204,16 @@
         },
         "tertiary": {
           "value": "$color.neutral.400",
+          "type": "color"
+        }
+      },
+      "infographics": {
+        "highlight": {
+          "value": "{color.decorative.neonBlue.100}",
+          "type": "color"
+        },
+        "default": {
+          "value": "{color.neutral.400}",
           "type": "color"
         }
       }
