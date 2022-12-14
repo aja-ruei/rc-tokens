@@ -1,16 +1,5 @@
 {
   "boxShadow": {
-    "base": {
-      "value": {
-        "x": "0",
-        "y": "2",
-        "blur": "8",
-        "spread": "0",
-        "color": "rgba($color.neutral.700, 0.08)",
-        "type": "dropShadow"
-      },
-      "type": "boxShadow"
-    },
     "card": {
       "value": {
         "x": "0",
@@ -70,11 +59,7 @@
   "sys": {
     "color": {
       "bg": {
-        "default": {
-          "value": "$color.neutral.50",
-          "type": "color"
-        },
-        "primary": {
+        "brand": {
           "value": "{color.brand.primary.300}",
           "type": "color"
         },
@@ -86,30 +71,42 @@
           "value": "$color.neutral.400",
           "type": "color"
         },
-        "overlay": {
-          "value": "rgba($color.black, 0.5)",
-          "type": "color"
-        },
-        "nav": {
-          "value": "$sys.color.surface.inverse",
+        "base": {
+          "value": "$color.neutral.50",
           "type": "color"
         },
         "decorative-secondary": {
           "value": "{color.decorative.neonGreen.100}",
           "type": "color"
-        }
-      },
-      "surface": {
+        },
+        "overlay": {
+          "value": "rgba($color.black, 0.5)",
+          "type": "color"
+        },
+        "inverse": {
+          "value": "{color.white}",
+          "type": "color"
+        },
         "primary": {
-          "value": "$color.neutral.100",
+          "value": "{color.neutral.100}",
           "type": "color"
         },
         "secondary": {
           "value": "{color.neutral.200}",
           "type": "color"
         },
-        "inverse": {
+        "tertiary": {
+          "value": "{color.neutral.400}",
+          "type": "color"
+        }
+      },
+      "surface": {
+        "inverse1": {
           "value": "{color.white}",
+          "type": "color"
+        },
+        "inverse2": {
+          "value": "$color.white",
           "type": "color"
         }
       },
@@ -146,7 +143,7 @@
           "value": "{color.functional.orange.200}",
           "type": "color"
         },
-        "onPrimary": {
+        "onBrand": {
           "value": "{color.white}",
           "type": "color"
         },
@@ -174,15 +171,7 @@
           "value": "$color.brand.primary.300",
           "type": "color"
         },
-        "decorative-secondary": {
-          "value": "{color.decorative.neonGreen.100}",
-          "type": "color"
-        },
-        "decorative-primary": {
-          "value": "{color.decorative.neonBlue.100}",
-          "type": "color"
-        },
-        "tab": {
+        "nav": {
           "default": {
             "value": "{color.neutral.300}",
             "type": "color"
@@ -191,20 +180,6 @@
             "value": "{color.brand.primary.300}",
             "type": "color"
           }
-        }
-      },
-      "container": {
-        "primary": {
-          "value": "$color.neutral.100",
-          "type": "color"
-        },
-        "secondary": {
-          "value": "$color.neutral.200",
-          "type": "color"
-        },
-        "tertiary": {
-          "value": "$color.neutral.400",
-          "type": "color"
         }
       },
       "infographics": {

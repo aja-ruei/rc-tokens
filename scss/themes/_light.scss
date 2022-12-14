@@ -1,33 +1,27 @@
 // surface
-$sys-color-surface-primary: $color-neutral-100;
-$sys-color-surface-secondary: $color-neutral-200;
-$sys-color-surface-inverse: $color-white;
+$sys-color-surface-inverse1: $color-white;
+$sys-color-surface-inverse2: $color-white;
 
 // background
-$sys-color-bg-primary: $color-brand-primary-300;
-$sys-color-bg-default: $color-neutral-50;
-$sys-color-bg-decorative-secondary: $color-decorative-neon-green-100;
+$sys-color-bg-base: $color-neutral-50;
+$sys-color-bg-inverse: $color-white;
+$sys-color-bg-primary: $color-neutral-100;
+$sys-color-bg-secondary: $color-neutral-200;
+$sys-color-bg-tertiary: $color-neutral-400;
 
-$sys-color-bg-nav: $sys-color-surface-inverse;
+$sys-color-bg-decorative-secondary: $color-decorative-neon-green-100;
 $sys-color-bg-overlay: rgba($color-black, 0.5);
 
+$sys-color-bg-brand: $color-brand-primary-300;
 $sys-color-bg-pressed: $color-brand-primary-400;
 $sys-color-bg-disabled: $color-neutral-400;
-
-// container
-$sys-color-container-primary: $color-neutral-100;
-$sys-color-container-secondary: $color-neutral-200;
-$sys-color-container-tertiary: $color-neutral-400;
 
 //icon
 $sys-color-icon-primary: $color-neutral-700;
 $sys-color-icon-secondary: $color-brand-primary-300;
 
-$sys-color-icon-decorative-primary: $color-decorative-neon-blue-100;
-$sys-color-icon-decorative-secondary: $color-decorative-neon-green-100;
-
-$sys-color-icon-tab-selected: $color-brand-primary-300;
-$sys-color-icon-tab-default: $color-neutral-300;
+$sys-color-icon-nav-selected: $color-brand-primary-300;
+$sys-color-icon-nav-default: $color-neutral-300;
 
 // infographic
 $sys-color-infographics-default: $color-neutral-400;
@@ -50,10 +44,9 @@ $sys-color-text-warning: $color-functional-orange-200;
 $sys-color-text-error: $color-functional-red-200;
 
 $sys-color-text-link: $color-brand-primary-300;
-$sys-color-text-on-primary: $color-white;
+$sys-color-text-on-brand: $color-white;
 
 // box-shadow
-$box-shadow-base: 0 2px 8px rgba($color-neutral-700, 0.08);
 $box-shadow-card: 0 4px 24px rgba($color-neutral-700, 0.08);
 $box-shadow-popup: 2px 2px 36px rgba($color-neutral-700, 0.2);
 $box-shadow-bottom-sheet: 0 -2px 12px rgba($color-neutral-700, 0.2);

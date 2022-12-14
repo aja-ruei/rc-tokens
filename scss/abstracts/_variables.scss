@@ -85,9 +85,9 @@ $line-heights-normal: 140%;
 
 // border
 // border-width, style, color
-$border-width-01: 1px;
-$border-width-02: 2px;
-$border-width-03: 3px;
+$border-width-1: 1;
+$border-width-2: 2;
+$border-width-3: 3;
 
 // border-radius
 $border-radius-base: 0.25rem; // 4px
@@ -97,27 +97,26 @@ $border-radius-xl: $border-radius-base * 6;
 $border-radius-pill: $border-radius-base * 20;
 
 // spacing
-$spacing-05: 1rem;
-$spacing-01: $spacing-05 * .125;
-$spacing-02: $spacing-05 * .25;
-$spacing-03: $spacing-05 * .5;
-$spacing-04: $spacing-05 * .75;
-$spacing-06: $spacing-05 * 1.5;
-$spacing-07: $spacing-05 * 2;
-$spacing-08: $spacing-05 * 3;
-$spacing-09: $spacing-05 * 4;
+$spacing-5: 1rem;
+$spacing-1: $spacing-05 * .125;
+$spacing-2: $spacing-05 * .25;
+$spacing-3: $spacing-05 * .5;
+$spacing-4: $spacing-05 * .75;
+$spacing-6: $spacing-05 * 1.5;
+$spacing-7: $spacing-05 * 2;
+$spacing-8: $spacing-05 * 3;
+$spacing-9: $spacing-05 * 4;
 
 // opacity 
+$opacity-9: 90%;
+$opacity-8: 80%;
+$opacity-7: 70%;
+$opacity-6: 60%;
+$opacity-5: 50%;
+$opacity-4: 40%;
+$opacity-3: 30%;
+$opacity-2: 20%;
+$opacity-1: 10%;
 $opacity-0: 0;
-$opacity-10: .1;
-$opacity-20: .2;
-$opacity-30: .3;
-$opacity-40: .4;
-$opacity-50: .5;
-$opacity-60: .6;
-$opacity-70: .7;
-$opacity-80: .8;
-$opacity-90: .9;
-$opacity-100: 1;
 
 /* -- BOX STYLING end -- */

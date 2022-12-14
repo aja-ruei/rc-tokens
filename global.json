@@ -1,34 +1,34 @@
 {
-  "$spacing-01": {
-    "value": "{$spacing-05} *0.125",
+  "$spacing-1": {
+    "value": "{$spacing-5} *0.125",
     "type": "spacing"
   },
-  "$spacing-02": {
-    "value": "{$spacing-05} *0.25",
+  "$spacing-2": {
+    "value": "{$spacing-5} *0.25",
     "type": "spacing"
   },
-  "$spacing-03": {
-    "value": "{$spacing-05} *0.5",
+  "$spacing-3": {
+    "value": "{$spacing-5} *0.5",
     "type": "spacing"
   },
-  "$spacing-04": {
-    "value": "{$spacing-05} *0.75",
+  "$spacing-4": {
+    "value": "{$spacing-5} *0.75",
     "type": "spacing"
   },
-  "$spacing-05": {
+  "$spacing-5": {
     "value": "16",
     "type": "spacing"
   },
-  "$spacing-06": {
-    "value": "{$spacing-05} *1.5",
+  "$spacing-6": {
+    "value": "{$spacing-5} *1.5",
     "type": "spacing"
   },
-  "$spacing-07": {
-    "value": "{$spacing-05} *2",
+  "$spacing-7": {
+    "value": "{$spacing-5} *2",
     "type": "spacing"
   },
-  "$spacing-08": {
-    "value": "{$spacing-05} *3",
+  "$spacing-8": {
+    "value": "{$spacing-5} *3",
     "type": "spacing"
   },
   "borderRadius": {
@@ -708,20 +708,20 @@
       }
     }
   },
-  "$spacing-09": {
-    "value": "{$spacing-05} *4",
+  "$spacing-9": {
+    "value": "{$spacing-5} *4",
     "type": "spacing"
   },
   "borderWidth": {
-    "01": {
+    "1": {
       "value": "1",
       "type": "borderWidth"
     },
-    "02": {
+    "2": {
       "value": "2",
       "type": "borderWidth"
     },
-    "03": {
+    "3": {
       "value": "3",
       "type": "borderWidth"
     }
@@ -741,44 +741,40 @@
       "value": "0",
       "type": "opacity"
     },
-    "10": {
+    "1": {
       "value": "10%",
       "type": "opacity"
     },
-    "20": {
+    "2": {
       "value": "20%",
       "type": "opacity"
     },
-    "30": {
+    "3": {
       "value": "30%",
       "type": "opacity"
     },
-    "40": {
+    "4": {
       "value": "40%",
       "type": "opacity"
     },
-    "50": {
+    "5": {
       "value": "50%",
       "type": "opacity"
     },
-    "60": {
+    "6": {
       "value": "60%",
       "type": "opacity"
     },
-    "70": {
+    "7": {
       "value": "70%",
       "type": "opacity"
     },
-    "80": {
+    "8": {
       "value": "80%",
       "type": "opacity"
     },
-    "90": {
+    "9": {
       "value": "90%",
-      "type": "opacity"
-    },
-    "100": {
-      "value": "100%",
       "type": "opacity"
     }
   }
