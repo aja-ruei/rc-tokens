@@ -5,8 +5,8 @@ $sys-color-surface-inverse2: $color-white;
 // background
 $sys-color-bg-base: $color-neutral-50;
 $sys-color-bg-inverse: $color-white;
-$sys-color-bg-primary: $color-neutral-100;
-$sys-color-bg-secondary: $color-neutral-200;
+$sys-color-bg-primary: $color-neutral-50;
+$sys-color-bg-secondary: $color-neutral-100;
 $sys-color-bg-tertiary: $color-neutral-400;
 
 $sys-color-bg-decorative-secondary: $color-decorative-neon-green-100;
@@ -28,13 +28,20 @@ $sys-color-infographics-default: $color-neutral-400;
 $sys-color-infographics-highlight: $color-decorative-neon-blue-100;
 
 // border
-$sys-color-border-highlight: $color-brand-primary-300;
 $sys-color-border-default: $color-neutral-200;
+$sys-color-border-brand: $color-brand-primary-300;
+
+$sys-color-border-highlight: $color-brand-primary-300;
+$sys-color-border-selection: $color-neutral-500;
+$sys-color-border-disabled: $color-neutral-400;
+$sys-color-border-error: $color-functional-red-200;
 
 // text
 $sys-color-text-primary: $color-black;
 $sys-color-text-secondary: $color-neutral-800;
 $sys-color-text-tertiary: $color-neutral-500;
+$sys-color-text-dark: $color-black;
+$sys-color-text-light: $color-white;
 
 $sys-color-text-accent: $color-brand-secondary-400;
 $sys-color-text-highlight: $color-decorative-neon-blue-100;
@@ -43,7 +50,9 @@ $sys-color-text-success: $color-functional-green-200;
 $sys-color-text-warning: $color-functional-orange-200;
 $sys-color-text-error: $color-functional-red-200;
 
-$sys-color-text-link: $color-brand-primary-300;
+$sys-color-text-pressed: $color-brand-primary-400;
+$sys-color-text-disabled: $color-neutral-400;
+$sys-color-text-brand: $color-brand-primary-300;
 $sys-color-text-on-brand: $color-white;
 
 // box-shadow
@@ -52,3 +61,16 @@ $box-shadow-popup: 2px 2px 36px rgba($color-neutral-700, 0.2);
 $box-shadow-bottom-sheet: 0 -2px 12px rgba($color-neutral-700, 0.2);
 $box-shadow-nav: 0 1px 4px rgba($color-neutral-700, 0.08);
 $box-shadow-drag: 0 0 16px rgba($color-neutral-700, 0.2);
+
+// 舊頁面適用
+$sys-color-legacy-brand: $color-brand-primary-300;
+$sys-color-legacy-on-brand: $color-white;
+$sys-color-legacy-default: $color-neutral-300;
+$sys-color-legacy-text-default: $color-neutral-500;
+$sys-color-legacy-disabled: $color-neutral-400;
+$sys-color-legacy-pressed: $color-brand-primary-400;
+
+$sys-color-legacy-orange: $color-functional-orange-200;
+$sys-color-legacy-red: $color-functional-red-200;
+$sys-color-legacy-green: $color-functional-green-200;
+$sys-color-legacy-accent: $color-brand-secondary-400;

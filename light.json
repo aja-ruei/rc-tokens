@@ -88,11 +88,11 @@
           "type": "color"
         },
         "primary": {
-          "value": "{color.neutral.100}",
+          "value": "{color.neutral.50}",
           "type": "color"
         },
         "secondary": {
-          "value": "{color.neutral.200}",
+          "value": "{color.neutral.100}",
           "type": "color"
         },
         "tertiary": {
@@ -119,16 +119,24 @@
           "value": "{color.neutral.800}",
           "type": "color"
         },
+        "brand": {
+          "value": "{color.brand.primary.300}",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "{color.brand.primary.400}",
+          "type": "color"
+        },
         "tertiary": {
           "value": "{color.neutral.500}",
           "type": "color"
         },
-        "link": {
-          "value": "{color.brand.primary.300}",
-          "type": "color"
-        },
         "accent": {
           "value": "{color.brand.secondary.400}",
+          "type": "color"
+        },
+        "highlight": {
+          "value": "{color.decorative.neonBlue.100}",
           "type": "color"
         },
         "error": {
@@ -147,8 +155,16 @@
           "value": "{color.white}",
           "type": "color"
         },
-        "highlight": {
-          "value": "{color.decorative.neonBlue.100}",
+        "drak": {
+          "value": "{color.black}",
+          "type": "color"
+        },
+        "light": {
+          "value": "{color.white}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{color.neutral.400}",
           "type": "color"
         }
       },
@@ -157,8 +173,24 @@
           "value": "{color.neutral.200}",
           "type": "color"
         },
+        "brand": {
+          "value": "{color.brand.primary.300}",
+          "type": "color"
+        },
         "highlight": {
           "value": "{color.brand.primary.300}",
+          "type": "color"
+        },
+        "input": {
+          "value": "{color.neutral.500}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{color.neutral.400}",
+          "type": "color"
+        },
+        "error": {
+          "value": "{color.functional.red.200}",
           "type": "color"
         }
       },
@@ -189,6 +221,48 @@
         },
         "default": {
           "value": "{color.neutral.400}",
+          "type": "color"
+        }
+      },
+      "legacy": {
+        "default": {
+          "value": "{color.neutral.300}",
+          "type": "color"
+        },
+        "textDefault": {
+          "value": "{color.neutral.500}",
+          "type": "color"
+        },
+        "brand": {
+          "value": "{color.brand.primary.300}",
+          "type": "color"
+        },
+        "onBrand": {
+          "value": "{color.white}",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "{color.brand.primary.400}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{color.neutral.400}",
+          "type": "color"
+        },
+        "accent": {
+          "value": "{color.brand.secondary.400}",
+          "type": "color"
+        },
+        "green": {
+          "value": "{color.functional.green.200}",
+          "type": "color"
+        },
+        "red": {
+          "value": "{color.functional.red.200}",
+          "type": "color"
+        },
+        "orange": {
+          "value": "{color.functional.orange.200}",
           "type": "color"
         }
       }
