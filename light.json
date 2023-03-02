@@ -71,16 +71,16 @@
           "value": "$color.neutral.400",
           "type": "color"
         },
-        "base": {
-          "value": "$color.neutral.50",
-          "type": "color"
-        },
         "decorative-secondary": {
           "value": "{color.decorative.neonGreen.100}",
           "type": "color"
         },
         "overlay": {
           "value": "rgba($color.black, 0.5)",
+          "type": "color"
+        },
+        "base": {
+          "value": "$color.neutral.50",
           "type": "color"
         },
         "inverse": {
@@ -97,6 +97,18 @@
         },
         "tertiary": {
           "value": "{color.neutral.400}",
+          "type": "color"
+        },
+        "toast": {
+          "value": "{color.brand.secondary.400}",
+          "type": "color"
+        },
+        "onBrand": {
+          "value": "{color.neutral.100}",
+          "type": "color"
+        },
+        "error": {
+          "value": "{color.functional.red.200}",
           "type": "color"
         }
       },
@@ -119,16 +131,16 @@
           "value": "{color.neutral.800}",
           "type": "color"
         },
+        "tertiary": {
+          "value": "{color.neutral.500}",
+          "type": "color"
+        },
         "brand": {
           "value": "{color.brand.primary.300}",
           "type": "color"
         },
         "pressed": {
           "value": "{color.brand.primary.400}",
-          "type": "color"
-        },
-        "tertiary": {
-          "value": "{color.neutral.500}",
           "type": "color"
         },
         "accent": {
@@ -155,7 +167,7 @@
           "value": "{color.white}",
           "type": "color"
         },
-        "drak": {
+        "dark": {
           "value": "{color.black}",
           "type": "color"
         },
@@ -165,6 +177,14 @@
         },
         "disabled": {
           "value": "{color.neutral.400}",
+          "type": "color"
+        },
+        "increase": {
+          "value": "{color.functional.red.200}",
+          "type": "color"
+        },
+        "decrease": {
+          "value": "{color.functional.green.200}",
           "type": "color"
         }
       },
@@ -181,7 +201,7 @@
           "value": "{color.brand.primary.300}",
           "type": "color"
         },
-        "input": {
+        "selection": {
           "value": "{color.neutral.500}",
           "type": "color"
         },
@@ -201,6 +221,18 @@
         },
         "secondary": {
           "value": "$color.brand.primary.300",
+          "type": "color"
+        },
+        "light": {
+          "value": "{color.white}",
+          "type": "color"
+        },
+        "dark": {
+          "value": "{color.neutral.700}",
+          "type": "color"
+        },
+        "bg": {
+          "value": "{color.neutral.200}",
           "type": "color"
         },
         "nav": {

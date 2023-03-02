@@ -68,11 +68,11 @@
         "type": "color"
       },
       "300": {
-        "value": "#c7cdd4",
+        "value": "#cdd3d9",
         "type": "color"
       },
       "400": {
-        "value": "#A6ADB5",
+        "value": "#B6BEC7",
         "type": "color"
       },
       "500": {
@@ -163,7 +163,7 @@
       },
       "green": {
         "100": {
-          "value": "#4EBB91",
+          "value": "#3BB787",
           "type": "color"
         },
         "200": {
@@ -173,7 +173,7 @@
       },
       "orange": {
         "100": {
-          "value": "#F79E7A",
+          "value": "#F08F67",
           "type": "color"
         },
         "200": {
