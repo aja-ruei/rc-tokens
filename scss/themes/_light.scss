@@ -16,12 +16,20 @@ $sys-color-bg-brand: $color-brand-primary-300;
 $sys-color-bg-pressed: $color-brand-primary-400;
 $sys-color-bg-disabled: $color-neutral-400;
 
+$sys-color-bg-on-brand: $color-neutral-100;
+$sys-color-bg-error: $color-functional-red-200;
+$sys-color-bg-accent: $color-brand-secondary-400;
+
 //icon
 $sys-color-icon-primary: $color-neutral-700;
 $sys-color-icon-secondary: $color-brand-primary-300;
 
 $sys-color-icon-nav-selected: $color-brand-primary-300;
 $sys-color-icon-nav-default: $color-neutral-300;
+
+$sys-color-icon-bg: $color-neutral-200;
+$sys-color-icon-light: $color-white;
+$sys-color-icon-dark: $color-neutral-700;
 
 // infographic
 $sys-color-infographics-default: $color-neutral-400;
@@ -54,6 +62,9 @@ $sys-color-text-pressed: $color-brand-primary-400;
 $sys-color-text-disabled: $color-neutral-400;
 $sys-color-text-brand: $color-brand-primary-300;
 $sys-color-text-on-brand: $color-white;
+
+$sys-color-text-decrease: $color-functional-green-200;
+$sys-color-text-increase: $color-functional-red-200;
 
 // box-shadow
 $box-shadow-card: 0 4px 24px rgba($color-neutral-700, 0.08);
