@@ -4,7 +4,8 @@ $sys-color-surface-inverse2: $color-neutral-800;
 
 // background
 $sys-color-bg-base: $color-neutral-900;
-$sys-color-bg-inverse: $color-neutral-800;
+$sys-color-bg-inverse1: $color-neutral-900;
+$sys-color-bg-inverse2: $color-neutral-800;
 $sys-color-bg-primary: $color-neutral-800;
 $sys-color-bg-secondary: $color-neutral-700;
 $sys-color-bg-tertiary: $color-neutral-600;
@@ -16,7 +17,7 @@ $sys-color-bg-brand: $color-brand-primary-300;
 $sys-color-bg-pressed: $color-brand-primary-400;
 $sys-color-bg-disabled: $color-neutral-500;
 
-$sys-color-bg-on-brand: $color-neutral-100;
+$sys-color-bg-onBrand: $color-neutral-100;
 $sys-color-bg-error: $color-functional-red-100;
 $sys-color-bg-accent: $color-brand-secondary-300;
 
@@ -30,6 +31,7 @@ $sys-color-icon-nav-default: $color-neutral-400;
 $sys-color-icon-bg: $color-neutral-200;
 $sys-color-icon-light: $color-neutral-100;
 $sys-color-icon-dark: $color-neutral-700;
+$sys-color-icon-fill: $color-neutral-100;
 
 // infographic
 $sys-color-infographics-default: $color-neutral-500;
@@ -44,6 +46,10 @@ $sys-color-border-highlight: $color-decorative-neon-blue-200;
 $sys-color-border-selection: $color-neutral-400;
 $sys-color-border-disabled: $color-neutral-500;
 $sys-color-border-error: $color-functional-red-100;
+
+// border gradient
+// -- widget --
+$sys-color-border-gradient1: linear-gradient(180deg, $color-neutral-800 0%, $color-neutral-500 100%);
 
 // text
 $sys-color-text-primary: $color-white;
@@ -62,7 +68,7 @@ $sys-color-text-error: $color-functional-red-100;
 $sys-color-text-pressed: $color-brand-primary-400;
 $sys-color-text-disabled: $color-neutral-500;
 $sys-color-text-brand: $color-brand-primary-300;
-$sys-color-text-on-brand: $color-white;
+$sys-color-text-onBrand: $color-white;
 
 $sys-color-text-decrease: $color-functional-green-100;
 $sys-color-text-increase: $color-functional-red-100;
@@ -76,7 +82,7 @@ $box-shadow-drag: 0 0 16px rgba($color-black, 0.3);
 
 // 舊頁面適用
 $sys-color-legacy-brand: $color-brand-primary-300;
-$sys-color-legacy-on-brand: $color-white;
+$sys-color-legacy-onBrand: $color-white;
 $sys-color-legacy-default: $color-neutral-600;
 $sys-color-legacy-text-default: $color-neutral-400;
 $sys-color-legacy-disabled: $color-neutral-500;
