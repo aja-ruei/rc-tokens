@@ -31,6 +31,7 @@ $sys-color-icon-nav-default: $color-neutral-300;
 $sys-color-icon-bg: $color-neutral-200;
 $sys-color-icon-light: $color-white;
 $sys-color-icon-dark: $color-neutral-700;
+$sys-color-icon-on-brand: $color-white;
 $sys-color-icon-fill: $color-neutral-600;
 
 // infographic
@@ -42,7 +43,8 @@ $sys-color-border-default: $color-neutral-200;
 $sys-color-border-base: $color-neutral-50;
 $sys-color-border-brand: $color-brand-primary-300;
 
-$sys-color-border-highlight: $color-brand-primary-300;
+$sys-color-border-pressed: $color-brand-primary-400;
+$sys-color-border-highlight: $color-decorative-neon-blue-100;
 $sys-color-border-selection: $color-neutral-500;
 $sys-color-border-disabled: $color-neutral-400;
 $sys-color-border-error: $color-functional-red-200;

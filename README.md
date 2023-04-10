@@ -1,3 +1,8 @@
+## 2023-04-10 更新項目
+- 新增 $sys-color-border-pressed、$sys-color-icon-onBrand
+- 更新 light mode 中 $sys-color-border-highlight
+
+
 ## 2022-12-28 更新項目
 
 ### 新增適用於舊頁面的 tokens
