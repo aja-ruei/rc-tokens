@@ -331,6 +331,10 @@
         "orange": {
           "value": "{color.functional.orange.100}",
           "type": "color"
+        },
+        "base": {
+          "value": "{color.gray}",
+          "type": "color"
         }
       }
     }

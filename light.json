@@ -320,6 +320,10 @@
         "orange": {
           "value": "{color.functional.orange.200}",
           "type": "color"
+        },
+        "base": {
+          "value": "{color.neutral.100}",
+          "type": "color"
         }
       }
     }

@@ -104,6 +104,10 @@
       "value": "#09090a",
       "type": "color"
     },
+    "gray": {
+      "value": "#232934",
+      "type": "color"
+    },
     "brand": {
       "primary": {
         "100": {
@@ -141,7 +145,7 @@
           "type": "color"
         },
         "400": {
-          "value": "#CB904C",
+          "value": "#D7862A",
           "type": "color"
         },
         "500": {
@@ -163,7 +167,7 @@
       },
       "green": {
         "100": {
-          "value": "#3BB787",
+          "value": "#4EBB91",
           "type": "color"
         },
         "200": {
@@ -173,7 +177,7 @@
       },
       "orange": {
         "100": {
-          "value": "#F08F67",
+          "value": "#F79E7A",
           "type": "color"
         },
         "200": {
