@@ -6,6 +6,9 @@ $sys-color-surface-inverse2: $color-neutral-800;
 $sys-color-bg-base: $color-neutral-900;
 $sys-color-bg-inverse1: $color-neutral-900;
 $sys-color-bg-inverse2: $color-neutral-800;
+$sys-color-bg-light: $color-neutral-200;
+$sys-color-bg-contrast: rgba($color-neutral-100, 0.8);
+
 $sys-color-bg-primary: $color-neutral-800;
 $sys-color-bg-secondary: $color-neutral-700;
 $sys-color-bg-tertiary: $color-neutral-600;
@@ -33,6 +36,7 @@ $sys-color-icon-light: $color-neutral-100;
 $sys-color-icon-dark: $color-neutral-700;
 $sys-color-icon-onBrand: $color-white;
 $sys-color-icon-fill: $color-neutral-100;
+$sys-color-icon-inverse: $color-neutral-700;
 
 // infographic
 $sys-color-infographics-default: $color-neutral-500;
@@ -42,6 +46,7 @@ $sys-color-infographics-highlight: $color-decorative-neon-blue-200;
 $sys-color-border-default: $color-neutral-600;
 $sys-color-border-base: $color-neutral-900;
 $sys-color-border-brand: $color-brand-primary-300;
+$sys-color-border-inverse: $color-neutral-100;
 
 $sys-color-border-pressed: $color-brand-primary-400;
 $sys-color-border-highlight: $color-decorative-neon-blue-200;
@@ -71,6 +76,7 @@ $sys-color-text-pressed: $color-brand-primary-400;
 $sys-color-text-disabled: $color-neutral-500;
 $sys-color-text-brand: $color-brand-primary-300;
 $sys-color-text-onBrand: $color-white;
+$sys-color-text-inverse: $color-black;
 
 $sys-color-text-decrease: $color-functional-green-100;
 $sys-color-text-increase: $color-functional-red-100;
@@ -81,6 +87,7 @@ $box-shadow-popup: 2px 2px 36px rgba($color-black, 0.5);
 $box-shadow-bottom-sheet: 2px -2px 16px rgba($color-black, 0.5);
 $box-shadow-nav: 0 1px 4px rgba($color-black, 0.3);
 $box-shadow-drag: 0 0 16px rgba($color-black, 0.3);
+$box-shadow-bottom-nav: 0 -1 4px rgba($color-black, 0.3);
 
 // 舊頁面適用
 $sys-color-legacy-brand: $color-brand-primary-300;

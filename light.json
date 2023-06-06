@@ -44,6 +44,17 @@
       },
       "type": "boxShadow"
     },
+    "bottom-nav": {
+      "value": {
+        "x": "0",
+        "y": "-1",
+        "blur": "4",
+        "spread": "0",
+        "color": "rgba($color.neutral.700, 0.08)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
     "drag": {
       "value": {
         "x": "0",
@@ -113,6 +124,14 @@
         },
         "error": {
           "value": "{color.functional.red.200}",
+          "type": "color"
+        },
+        "contrast": {
+          "value": "rgba({color.neutral.900}, 0.8)",
+          "type": "color"
+        },
+        "light": {
+          "value": "{color.white}",
           "type": "color"
         }
       },
@@ -190,6 +209,10 @@
         "decrease": {
           "value": "{color.functional.green.200}",
           "type": "color"
+        },
+        "inverse": {
+          "value": "{color.white}",
+          "type": "color"
         }
       },
       "border": {
@@ -227,6 +250,10 @@
         },
         "gradient1": {
           "value": "linear-gradient(180deg, $color.white 0%, $color.neutral.200 100%)",
+          "type": "color"
+        },
+        "inverse": {
+          "value": "{color.neutral.500}",
           "type": "color"
         }
       },
@@ -268,6 +295,10 @@
             "value": "{color.brand.primary.300}",
             "type": "color"
           }
+        },
+        "inverse": {
+          "value": "{color.neutral.200}",
+          "type": "color"
         }
       },
       "infographics": {

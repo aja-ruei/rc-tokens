@@ -1,3 +1,7 @@
+## 2023-06-06 更新項目
+- 新增 $sys-color-bg-light、$sys-color-bg-contrast、$sys-color-icon-inverse、$sys-color-border-inverse、$sys-color-text-inverse、$box-shadow-bottom-nav
+- 調整 $color-functional-red-100 數值
+
 ## 2023-04-25 更新項目
 - 新增 $sys-color-legacy-base 用於舊頁面特殊背景色
 - 調整 $color-brand-secondary-400、$color-functional-green-100 與 $color-functional-orange-100 數值

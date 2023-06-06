@@ -55,6 +55,17 @@
       },
       "type": "boxShadow"
     },
+    "bottom-nav": {
+      "value": {
+        "x": "0",
+        "y": "-1",
+        "blur": "4",
+        "spread": "0",
+        "color": "rgba($color.black, 0.3)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
     "drag": {
       "value": {
         "x": "0",
@@ -124,6 +135,14 @@
         },
         "error": {
           "value": "{color.functional.red.100}",
+          "type": "color"
+        },
+        "contrast": {
+          "value": "rgba({color.neutral.100}, 0.8)",
+          "type": "color"
+        },
+        "light": {
+          "value": "{color.neutral.200}",
           "type": "color"
         }
       },
@@ -201,6 +220,10 @@
         "decrease": {
           "value": "{color.functional.green.100}",
           "type": "color"
+        },
+        "inverse": {
+          "value": "{color.black}",
+          "type": "color"
         }
       },
       "border": {
@@ -239,11 +262,19 @@
         "gradient1": {
           "value": "linear-gradient(180deg, {color.neutral.800} 0%, {color.neutral.500} 100%)",
           "type": "color"
+        },
+        "inverse": {
+          "value": "{color.neutral.100}",
+          "type": "color"
         }
       },
       "icon": {
         "primary": {
           "value": "{color.neutral.200}",
+          "type": "color"
+        },
+        "inverse": {
+          "value": "{color.neutral.700}",
           "type": "color"
         },
         "secondary": {
