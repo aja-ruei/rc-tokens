@@ -137,12 +137,20 @@
           "value": "{color.functional.red.100}",
           "type": "color"
         },
-        "contrast": {
-          "value": "rgba({color.neutral.100}, 0.8)",
-          "type": "color"
-        },
         "light": {
           "value": "{color.neutral.200}",
+          "type": "color"
+        },
+        "increase": {
+          "value": "{color.functional.red.100}",
+          "type": "color"
+        },
+        "decrease": {
+          "value": "{color.functional.green.100}",
+          "type": "color"
+        },
+        "contrast": {
+          "value": "rgba({color.neutral.100}, 0.8)",
           "type": "color"
         }
       },
@@ -166,7 +174,7 @@
           "type": "color"
         },
         "tertiary": {
-          "value": "{color.neutral.300}",
+          "value": "{color.neutral.400}",
           "type": "color"
         },
         "brand": {
@@ -221,7 +229,11 @@
           "value": "{color.functional.green.100}",
           "type": "color"
         },
-        "inverse": {
+        "default": {
+          "value": "{color.neutral.400}",
+          "type": "color"
+        },
+        "inverese": {
           "value": "{color.black}",
           "type": "color"
         }
@@ -273,10 +285,6 @@
           "value": "{color.neutral.200}",
           "type": "color"
         },
-        "inverse": {
-          "value": "{color.neutral.700}",
-          "type": "color"
-        },
         "secondary": {
           "value": "{color.brand.primary.300}",
           "type": "color"
@@ -293,12 +301,16 @@
           "value": "{color.neutral.700}",
           "type": "color"
         },
+        "bg": {
+          "value": "{color.neutral.200}",
+          "type": "color"
+        },
         "onBrand": {
           "value": "{color.white}",
           "type": "color"
         },
-        "bg": {
-          "value": "{color.neutral.200}",
+        "inverse": {
+          "value": "{color.neutral.700}",
           "type": "color"
         },
         "nav": {

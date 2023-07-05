@@ -1,5 +1,16 @@
 {
   "boxShadow": {
+    "base": {
+      "value": {
+        "x": "0",
+        "y": "2",
+        "blur": "8",
+        "spread": "0",
+        "color": "rgba($color.neutral.700, 0.08)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
     "card": {
       "value": {
         "x": "0",
@@ -107,7 +118,7 @@
           "type": "color"
         },
         "secondary": {
-          "value": "{color.neutral.100}",
+          "value": "{color.neutral.200}",
           "type": "color"
         },
         "tertiary": {
@@ -126,12 +137,20 @@
           "value": "{color.functional.red.200}",
           "type": "color"
         },
-        "contrast": {
-          "value": "rgba({color.neutral.900}, 0.8)",
-          "type": "color"
-        },
         "light": {
           "value": "{color.white}",
+          "type": "color"
+        },
+        "increase": {
+          "value": "{color.functional.red.200}",
+          "type": "color"
+        },
+        "decrease": {
+          "value": "{color.functional.green.200}",
+          "type": "color"
+        },
+        "contrast": {
+          "value": "rgba({color.neutral.900}, 0.8)",
           "type": "color"
         }
       },
@@ -166,6 +185,10 @@
           "value": "{color.brand.primary.400}",
           "type": "color"
         },
+        "disabled": {
+          "value": "{color.neutral.400}",
+          "type": "color"
+        },
         "accent": {
           "value": "{color.brand.secondary.400}",
           "type": "color"
@@ -198,16 +221,16 @@
           "value": "{color.white}",
           "type": "color"
         },
-        "disabled": {
-          "value": "{color.neutral.400}",
-          "type": "color"
-        },
         "increase": {
           "value": "{color.functional.red.200}",
           "type": "color"
         },
         "decrease": {
           "value": "{color.functional.green.200}",
+          "type": "color"
+        },
+        "default": {
+          "value": "{color.neutral.500}",
           "type": "color"
         },
         "inverse": {
@@ -286,6 +309,10 @@
           "value": "{color.white}",
           "type": "color"
         },
+        "inverse": {
+          "value": "{color.neutral.200}",
+          "type": "color"
+        },
         "nav": {
           "default": {
             "value": "{color.neutral.300}",
@@ -295,10 +322,6 @@
             "value": "{color.brand.primary.300}",
             "type": "color"
           }
-        },
-        "inverse": {
-          "value": "{color.neutral.200}",
-          "type": "color"
         }
       },
       "infographics": {

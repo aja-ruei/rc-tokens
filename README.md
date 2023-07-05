@@ -1,3 +1,9 @@
+## 2023-07-05 更新項目
+- 新增 $sys-color-bg-decrease、$sys-color-bg-increase、$sys-color-text-default、$box-shadow-bottom-nav
+- 調整 themes/_dark $sys-color-text-tertiary
+- 調整 themes/_light $sys-color-bg-secondary
+- 調整 abstracts/_variables：$color-functional-red-200、$color-functional-green-200 數值
+
 ## 2023-06-06 更新項目
 - 新增 $sys-color-bg-light、$sys-color-bg-contrast、$sys-color-icon-inverse、$sys-color-border-inverse、$sys-color-text-inverse、$box-shadow-bottom-nav
 - 調整 $color-functional-red-100 數值

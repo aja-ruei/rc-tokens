@@ -24,6 +24,9 @@ $sys-color-bg-onBrand: $color-neutral-100;
 $sys-color-bg-error: $color-functional-red-100;
 $sys-color-bg-accent: $color-brand-secondary-300;
 
+$sys-color-bg-decrease: $color-functional-green-100;
+$sys-color-bg-increase: $color-functional-red-100;
+
 // icon
 $sys-color-icon-primary: $color-neutral-200;
 $sys-color-icon-secondary: $color-brand-primary-300;
@@ -61,10 +64,11 @@ $sys-color-border-gradient1: linear-gradient(180deg, $color-neutral-800 0%, $col
 // text
 $sys-color-text-primary: $color-white;
 $sys-color-text-secondary: $color-neutral-100;
-$sys-color-text-tertiary: $color-neutral-300;
+$sys-color-text-tertiary: $color-neutral-400;
 $sys-color-text-light: $color-white;
 $sys-color-text-dark: $color-black;
 
+$sys-color-text-default: $color-neutral-400;
 $sys-color-text-accent: $color-brand-secondary-300;
 $sys-color-text-highlight: $color-decorative-neon-blue-200;
 
@@ -88,6 +92,7 @@ $box-shadow-bottom-sheet: 2px -2px 16px rgba($color-black, 0.5);
 $box-shadow-nav: 0 1px 4px rgba($color-black, 0.3);
 $box-shadow-drag: 0 0 16px rgba($color-black, 0.3);
 $box-shadow-bottom-nav: 0 -1 4px rgba($color-black, 0.3);
+$box-shadow-bottom-base: 0 0 2px rgba($color-black, 0.5);
 
 // 舊頁面適用
 $sys-color-legacy-brand: $color-brand-primary-300;
