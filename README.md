@@ -1,3 +1,16 @@
+## 2023-07-21 更新項目
+- 調整 themes 數值
+  - $sys-color-bg-decorative-secondary
+  - $sys-color-text-highlight
+  - $sys-color-border-highlight
+  - $sys-color-icon-dark
+  - $sys-color-icon-inverse
+  - $sys-color-infographics-highlight
+- 新增 themes
+  - $sys-color-icon-success
+- 調整 variables 數值
+  - $color-decorative-neon-blue-200: #27dbe7;
+
 ## 2023-07-05 更新項目
 - 新增 $sys-color-bg-decrease、$sys-color-bg-increase、$sys-color-text-default、$box-shadow-bottom-nav
 - 調整 themes/_dark $sys-color-text-tertiary

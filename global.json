@@ -161,7 +161,7 @@
           "type": "color"
         },
         "200": {
-          "value": "#E83036",
+          "value": "#e83036",
           "type": "color"
         }
       },
@@ -189,11 +189,11 @@
     "decorative": {
       "neonBlue": {
         "100": {
-          "value": "#2de9f6",
+          "value": "#2DE9F6",
           "type": "color"
         },
         "200": {
-          "value": "#2BE0EC",
+          "value": "#27DBE7",
           "type": "color"
         }
       },
@@ -203,7 +203,7 @@
           "type": "color"
         },
         "200": {
-          "value": "#c8e650",
+          "value": "#C8E650",
           "type": "color"
         }
       }

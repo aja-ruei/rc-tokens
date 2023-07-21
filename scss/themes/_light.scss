@@ -13,7 +13,7 @@ $sys-color-bg-primary: $color-neutral-50;
 $sys-color-bg-secondary: $color-neutral-200;
 $sys-color-bg-tertiary: $color-neutral-400;
 
-$sys-color-bg-decorative-secondary: $color-decorative-neon-green-100;
+$sys-color-bg-decorative-secondary: $color-decorative-neon-green-200;
 $sys-color-bg-overlay: rgba($color-black, 0.5);
 
 $sys-color-bg-brand: $color-brand-primary-300;
@@ -39,11 +39,12 @@ $sys-color-icon-light: $color-white;
 $sys-color-icon-dark: $color-neutral-700;
 $sys-color-icon-onBrand: $color-white;
 $sys-color-icon-fill: $color-neutral-600;
-$sys-color-icon-inverse: $color-neutral-200;
+$sys-color-icon-inverse: $color-white;
+$sys-color-icon-success: $color-functional-green-200;
 
 // infographic
 $sys-color-infographics-default: $color-neutral-400;
-$sys-color-infographics-highlight: $color-decorative-neon-blue-100;
+$sys-color-infographics-highlight: $color-decorative-neon-blue-200;
 
 // border
 $sys-color-border-default: $color-neutral-200;
@@ -52,7 +53,7 @@ $sys-color-border-brand: $color-brand-primary-300;
 $sys-color-border-inverse: $color-neutral-500;
 
 $sys-color-border-pressed: $color-brand-primary-400;
-$sys-color-border-highlight: $color-decorative-neon-blue-100;
+$sys-color-border-highlight: $color-decorative-neon-blue-200;
 $sys-color-border-selection: $color-neutral-500;
 $sys-color-border-disabled: $color-neutral-400;
 $sys-color-border-error: $color-functional-red-200;
@@ -70,7 +71,7 @@ $sys-color-text-light: $color-white;
 
 $sys-color-text-default: $color-neutral-500;
 $sys-color-text-accent: $color-brand-secondary-400;
-$sys-color-text-highlight: $color-decorative-neon-blue-100;
+$sys-color-text-highlight: $color-decorative-neon-blue-200;
 
 $sys-color-text-success: $color-functional-green-200;
 $sys-color-text-warning: $color-functional-orange-200;
