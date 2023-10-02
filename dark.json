@@ -152,6 +152,10 @@
         "contrast": {
           "value": "rgba({color.neutral.100}, 0.8)",
           "type": "color"
+        },
+        "chosen": {
+          "value": "rgba({color.brand.primary.300},0.1)",
+          "type": "color"
         }
       },
       "surface": {

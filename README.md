@@ -1,3 +1,6 @@
+## 2023-10-02 更新項目
+- 新增 $sys-color-bg-chosen
+
 ## 2023-07-21 更新項目
 - 調整 themes 數值
   - $sys-color-bg-decorative-secondary

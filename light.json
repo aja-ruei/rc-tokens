@@ -152,6 +152,10 @@
         "contrast": {
           "value": "rgba({color.neutral.900}, 0.8)",
           "type": "color"
+        },
+        "chosen": {
+          "value": "rgba({color.brand.primary.100},0.7)",
+          "type": "color"
         }
       },
       "surface": {
@@ -305,16 +309,16 @@
           "value": "{color.neutral.200}",
           "type": "color"
         },
+        "success": {
+          "value": "{color.functional.green.200}",
+          "type": "color"
+        },
         "onBrand": {
           "value": "{color.white}",
           "type": "color"
         },
         "inverse": {
           "value": "{color.white}",
-          "type": "color"
-        },
-        "success": {
-          "value": "{color.functional.green.200}",
           "type": "color"
         },
         "nav": {
