@@ -1,5 +1,10 @@
+## 2024-08-07 更新項目
+- 新增 $sys-color-bg-fab、$sys-color-border-fab
+- 由於改以 figma 原生 local variable 管理 raw data，此次無更新 JSON 檔
+
 ## 2024-02-01 更新項目
 - 調整 $neutral-800: #2A3342 為 $neutral-800: #222935
+  
 ## 2023-10-02 更新項目
 - 新增 $sys-color-bg-chosen
 
