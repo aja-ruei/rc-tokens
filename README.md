@@ -1,3 +1,6 @@
+## 2025-10-16 更新項目
+- 新增 $sys-color-image-border
+
 ## 2024-08-07 更新項目
 - 新增 $sys-color-bg-fab、$sys-color-border-fab
 - 由於改以 figma 原生 local variable 管理 raw data，此次無更新 JSON 檔
